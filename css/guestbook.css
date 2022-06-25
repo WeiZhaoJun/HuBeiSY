@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    background-color: #d1e9fb;
+    font-family: Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+}
+body, p {
+    font: 17px/1 "\u5b8b\u4f53", Tahoma, Geneva, sans-serif;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    font-family: "SimSun";
+}
+h1 {
+    margin-top: 64px;
+    font-size: 45px;
+    line-height: 45px;
+    float: left;
+    position: relative;
+    color: #efe5d0;
+}
+h2 {
+    display: block;
+    font-size:  22px;
+    margin-block-start: 2em;
+    margin-block-end: 1.2em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    font-weight: bold;
+    color:black;
+}
+
+div.inner{
+    width: 1000px;
+    margin-left:auto ;
+    margin-right: auto;
+}
+
+header{
+    height: 168px;
+    background-image: url(../images/starsky.jpg);
+    background-position: 80%;
+    background-size: cover;
+    transition: background-image .2s ease,background-size 1s ease;
+    padding-top: 18px;
+    position: relative;
+}
+
+
+nav {
+    height: 50px;
+    background-color:rgb(0, 179, 255);
+	margin: 0px 0px 0px 0px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 15px 0px 5px 0px;
+}
+nav ul li {
+    color: #efe5d0;
+	display: inline;
+    font-size: 20px;
+	padding: 5px 65px 5px 65px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color:  #efe5d0;
+    text-decoration: none;
+	font-weight: bold;
+}
+nav ul li a:hover {
+	color:rgb(190, 94, 132);
+    text-decoration:underline;
+	font-weight: bold;
+}
+
+ .bg {
+    pointer-events: none;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 56.25vw;
+    transform: translateX(-50%);
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+div.fa{
+    height: 100%;
+}
+
+form {
+	display: table;
+	padding: 15px;
+    margin: 0 auto;  /*表单居中*/
+    margin-top: 5px;
+	border: thin dotted #7e7e7e;
+	background-color: #bee4fa;
+}
+
+form textarea {
+	width: 500px;
+	height: 300px;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 5px;
+}
+div.tableRow p:first-child {
+	text-align: right;
+}
+p.heading {
+	font-weight: bold;
+}
+
+footer{
+    background-color:rgb(0, 179, 255);
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          15px;
+    margin: 5px 0px 5px 0px;
+    font-size:        95%;
+    clear: left;
+}

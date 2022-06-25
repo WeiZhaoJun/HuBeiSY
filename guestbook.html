@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initail-scale=1.0">
+	<title>Messages</title>
+    <link rel="stylesheet" href="css/guestbook.css">
+</head>
+
+<body>
+    <header><!--页眉区-->
+        <div class="inner">
+            <h1>给我留言吧 </h1>
+        </div>
+    </header>
+
+    <nav><!--导航区-->
+        <div class="inner">
+            <ul>
+                <li ><a href="index.html">主页</a></li>
+                <li><a href="photo.html">我的随手拍</a></li>
+                <li><a href="blog.html">旅行博客</a></li>
+                <li><a href="guestbook.html">留言板</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="bg"></div>
+    <!--内容区-->
+    <div class="fa"><!--表单部分-->
+        <form action="http://www.555.com/myHomepage.php" method="post" >
+
+            <div class="tableRow">
+                <p> 昵称: </p>
+                <p> <input type="text" name="name" value="" placeholder="不填视作匿名" required> </p>
+            </div>
+            <div class="tableRow">
+                <p> 性别: </p>
+                <p>
+                    <input type="radio" name="sex" value="female"> famale ♀ <br>
+                    <input type="radio" name="sex" value="male" checked> male ♂
+                </p>
+            </div>
+            <div class="tableRow">
+                <p> e-mail: </p>
+                <p> <input type="text" name="address" value="" placeholder="@qq.com" required> </p>
+            </div>
+            <div class="tableRow">
+                <p> 地址: </p>
+                <p> <input type="text" name="city" value="" placeholder="Los Angeles" required> </p>
+            </div>
+            <div class="tableRow">
+                <p> 电话: </p>
+                <p> <input type="tel" name="phone" value="" placeholder="310-555-1212" required> </p>
+            </div>
+            <div class="tableRow">
+                <p> 有什么想我说的: </p>
+                <p>
+                    <textarea name="comments" placeholder="请畅所欲言吧！"></textarea>
+                </p>
+            </div>
+            <div class="tableRow">
+                <p></p>
+                <p> <input type="submit" value="完成"> </p>
+            </div>
+            </form>
+    </div>
+    
+
+    <footer><!--页脚区-->
+        <div class="inner">
+                Designed and developed by Zhaojun Wei. <br>
+                Copyright&copy; 2022,My Homepage. All Rights Reserved.<br>
+            <time datetime="2022-6">6/20/2022</time>
+        </div>
+    </footer>
+</body>
